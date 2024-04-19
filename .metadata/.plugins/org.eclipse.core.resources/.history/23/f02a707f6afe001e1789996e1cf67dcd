@@ -1,0 +1,12 @@
+package in.mahesh;
+
+public class SumOfNumbers {
+	
+	public Integer Add(Integer num) {
+		Integer sum;
+		sum = (num*(num+1))/2;
+		return sum;
+		
+	}
+
+}

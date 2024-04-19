@@ -1,0 +1,48 @@
+package in.mahesh;
+
+import java.util.Scanner;
+
+public class ArmStrong {
+	
+	public boolean armStrongNumber(Integer num) {
+		int k=num;
+		int n=num;
+		int mul=0;
+		int count =0;
+		while(num != 0) {
+			count++;
+			num=num/10;
+		}
+		
+		
+		
+		while(n != 0) {
+			int rem = n%10;
+			mul = (int) (mul+ Math.pow(rem, count));
+			n = n/10;
+		}
+		System.out.println(mul);
+		
+		if(k==mul) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number");
+		Integer num=sc.nextInt();
+		ArmStrong a = new ArmStrong();
+		boolean status = a.armStrongNumber(num);
+		if(status) {
+			System.out.println("Given number is ArmStrong Number.......");
+		}else {
+			System.out.println("Given number not ArmStrong Number.......");
+		}
+		
+	}
+
+
+}

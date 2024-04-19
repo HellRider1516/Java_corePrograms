@@ -1,0 +1,32 @@
+package in.mahesh;
+
+import java.util.Scanner;
+
+public class PrimeOrNot {
+	
+	int count=0;
+	
+	public static Integer checkPrimeOrNot(Integer num) {
+		for(int i=2 ; i<=num/2 ; i++) {
+			if(num%i==0) {
+				try {
+					count++;
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				break;
+			}
+		}
+		return count;
+	}
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number");
+		Integer num=sc.nextInt();
+		checkPrimeOrNot(num);
+	}
+	
+
+}

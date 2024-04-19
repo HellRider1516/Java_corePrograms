@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="in.mahesh.PrimeOrNot"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="in.mahesh.EvenOrOdd"/>
+    <fullyQualifiedTypeName name="in.mahesh.DivisibleByNum"/>
+    <fullyQualifiedTypeName name="in.mahesh.SumOfNumbers"/>
+    <fullyQualifiedTypeName name="in.mahesh.MathsTable"/>
+    <fullyQualifiedTypeName name="in.mahesh.Factorial"/>
+    <fullyQualifiedTypeName name="in.mahesh.SumOfDigits"/>
+    <fullyQualifiedTypeName name="in.mahesh.ArmStrong"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,7 @@
+package in.mahesh;
+
+public class PrimeOrNot {
+	
+	System.out.println("");
+
+}
