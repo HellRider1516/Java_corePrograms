@@ -12,4 +12,14 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="in.mahesh.PrimeNumbers"/>
     <fullyQualifiedTypeName name="in.mahesh.Patterns"/>
+    <fullyQualifiedTypeName name="in.mahesh.SumOfArrays"/>
+    <fullyQualifiedTypeName name="in.mahesh.ReverseOfArrays"/>
+    <fullyQualifiedTypeName name="in.mahesh.MinAndMaxOfArrys"/>
+    <fullyQualifiedTypeName name="in.mahesh.SecondMinAndMaxOfArray"/>
+    <fullyQualifiedTypeName name="in.mahesh.CombinationOfTwoString"/>
+    <fullyQualifiedTypeName name="in.mahesh.ReverseOfString"/>
+    <fullyQualifiedTypeName name="in.mahesh.Palindrome"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="in.mahesh.RemoveThegivenChar"/>
 </qualifiedTypeNameHistroy>
